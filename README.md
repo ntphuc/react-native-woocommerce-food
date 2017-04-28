@@ -1,9 +1,9 @@
 # foodapp
-Connect to WordPress WooCommerce to display products and order on app.
 
-# Screenshots
+An app developed on React Native which connect to WordPress WooCommerce API to display products and order.
 
-![alt text] (https://github.com/ntphuc/react-native-woocommerce-food/blob/master/ScreenShots/Simulator%20Screen%20Shot%20Apr%2028%2C%202017%2C%201.35.03%20PM.png/to/img.png)
+# Video Demo
+-  Link demo: https://www.youtube.com/watch?v=7BkctT_0z8M
 
 ### What's included
 
@@ -12,7 +12,8 @@ Connect to WordPress WooCommerce to display products and order on app.
 - [Wix/react-native-navigation](https://github.com/wix/react-native-navigation) - A complete native navigation solution for React Native with optional redux support - nav bars, tabs, drawer, modals
 - [Redux Thunk](https://github.com/gaearon/redux-thunk) - Thunk middleware for Redux
 - [ESLint](http://eslint.org/) - The pluggable linting utility for JavaScript and JSX
-
+- [Wordpress](https://wordpress.com) - The easiest way to create a website or blog
+- [WooCommerce API] (https://docs.woocommerce.com/document/woocommerce-rest-api/) WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API
 ### Requirements
 - [Node](https://nodejs.org) `4.x` or newer
 - [React Native](http://facebook.github.io/react-native/docs/getting-started.html) for development
@@ -32,6 +33,15 @@ $ git clone https://github.com/ntphuc/react-native-woocommerce-food.git
 $ cd foodapp
 $ yarn install or npm install
 ```
+### Installation SERVER NODEJS
+- Extract file zip server.zip
+- cd to folder server
+- Open terminal to start server by command : $ node server.js
+
+## CHANGE WEB_URL in project React Native app
+
+Change value constant WEB_URL in folder src/constants/api.js
+export const WEB_URL = "http://YOUR_IP:YOUR_PORT";
 
 ### How to start
 ```sh
