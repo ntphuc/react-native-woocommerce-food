@@ -3,12 +3,6 @@ Connect to WordPress WooCommerce to display products and order on app.
 
 
 
-
-
-
-### Download APK file
- - [Download from Google Drive](http://bit.ly/2gjWs9P)
-
 ### What's included
 
 - [React Native](https://facebook.github.io/react-native/) - Build Native Mobile Apps using JavaScript and React
