@@ -1,7 +1,9 @@
 # foodapp
 Connect to WordPress WooCommerce to display products and order on app.
 
+# Screenshots
 
+![alt text] (https://github.com/ntphuc/react-native-woocommerce-food/blob/master/ScreenShots/Simulator%20Screen%20Shot%20Apr%2028%2C%202017%2C%201.35.03%20PM.png)
 
 ### What's included
 
