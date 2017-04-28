@@ -13,7 +13,8 @@ An app developed on React Native which connect to WordPress WooCommerce API to d
 - [Redux Thunk](https://github.com/gaearon/redux-thunk) - Thunk middleware for Redux
 - [ESLint](http://eslint.org/) - The pluggable linting utility for JavaScript and JSX
 - [Wordpress](https://wordpress.com) - The easiest way to create a website or blog
-- [WooCommerce API] (https://docs.woocommerce.com/document/woocommerce-rest-api/) WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API
+- [WooCommerce API](https://docs.woocommerce.com/document/woocommerce-rest-api/) WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API
+
 ### Requirements
 - [Node](https://nodejs.org) `4.x` or newer
 - [React Native](http://facebook.github.io/react-native/docs/getting-started.html) for development
@@ -33,7 +34,7 @@ $ git clone https://github.com/ntphuc/react-native-woocommerce-food.git
 $ cd foodapp
 $ yarn install or npm install
 ```
-### Installation SERVER NODEJS
+### Installation SERVER NODEJS for WooCommerce Rest API
 - Extract file zip server.zip
 - cd to folder server
 - Open terminal to start server by command : $ node server.js
@@ -41,7 +42,7 @@ $ yarn install or npm install
 ## CHANGE WEB_URL in project React Native app
 
 Change value constant WEB_URL in folder src/constants/api.js
-export const WEB_URL = "http://YOUR_IP:YOUR_PORT";
+- export const WEB_URL = "http://YOUR_IP:YOUR_PORT";
 
 ### How to start
 ```sh
