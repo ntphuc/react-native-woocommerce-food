@@ -1,0 +1,65 @@
+{
+  "name": "foodapp",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "esw index.ios.js index.android.js src utils",
+    "lint:watch": "npm run lint -- --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.15.2",
+    "crypto": "0.0.3",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-react-native": "^2.0.0",
+    "eslint-watch": "2.1.14",
+    "lodash": "^4.16.6",
+    "moment": "^2.16.0",
+    "numeral": "^1.5.3",
+    "oauth-1.0a": "^2.1.0",
+    "react": "^15.4.2",
+    "react-native": "^0.42.3",
+    "react-native-config": "^0.3.1",
+    "react-native-crypto": "^2.0.1",
+    "react-native-image-picker": "^0.26.3",
+    "react-native-linear-gradient": "^2.0.0",
+    "react-native-navigation": "v2.0.0-experimental.256",
+    "react-native-randombytes": "^2.2.0",
+    "react-native-scrollable-tab-view": "^0.7.3",
+    "react-native-swiper": "^1.5.4",
+    "react-native-vector-icons": "^4.0.0",
+    "react-native-wordpress-editor": "^2.0.1",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "stream": "0.0.2",
+    "woocommerce": "^2.4.0"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "16.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "16.0.1",
+    "jest-react-native": "16.0.0",
+    "react-native-dotenv": "0.0.2",
+    "react-test-renderer": "15.3.2",
+    "reactotron-react-native": "^1.1.4",
+    "redux-immutable-state-invariant": "^1.2.4",
+    "redux-logger": "^2.7.4"
+  },
+  "description": "React Native WooCommerce Food App",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntphuc/react-native-woocommerce-food.git"
+  },
+  "author": "Phuc Nguyen <thienphuc0510@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ntphuc/react-native-woocommerce-food.git"
+}

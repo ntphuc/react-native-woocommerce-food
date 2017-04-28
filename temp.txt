@@ -1,0 +1,14 @@
+// 					{nowPlayingFoods.map( function(info) {
+// 						console.log ("image  url ", info.better_featured_image.media_details.sizes.medium.source_url);
+//    return (<CardOne key={info.id} info={info} viewFood={this._viewFood}/>);
+// })}
+this.state.giohang.map(function(o, i){
+        return <ItemCart  NAME={o.NAME}
+                      HINH={o.HINH}
+                      SOLUONG={o.SOLUONG}
+                      DONGIA={o.DONGIA}
+                      IDSP={o.IDSP}
+                      key={i}
+                      plusItem={(e)=>{c.plusItem(e)}}
+               />;
+       })
