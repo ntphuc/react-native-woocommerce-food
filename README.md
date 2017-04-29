@@ -39,7 +39,7 @@ $ yarn install or npm install
 - cd to folder server
 - Open terminal to start server by command : $ node server.js
 
-## CHANGE WEB_URL in project React Native app
+### CHANGE WEB_URL in project React Native app
 
 Change value constant WEB_URL in folder src/constants/api.js
 - export const WEB_URL = "http://YOUR_IP:YOUR_PORT";

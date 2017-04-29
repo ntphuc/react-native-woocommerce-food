@@ -3,8 +3,21 @@ import { Platform, StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
 	container: {
 		backgroundColor: 'black',
-		paddingTop: 64,
-		marginBottom:55
+		...Platform.select({
+			ios: {
+				paddingTop: 64
+			},
+
+		}),
+		...Platform.select({
+			ios: {
+				marginBottom: 55
+			},
+			android: {
+				marginBottom: 5
+			}
+		}),
+		flex:1
 	},
 	progressBar: {
 		backgroundColor: '#0a0a0a',

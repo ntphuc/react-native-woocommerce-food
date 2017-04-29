@@ -9,10 +9,18 @@ const styles = StyleSheet.create({
 				paddingTop: 64
 			},
 			android: {
-				paddingTop: 128
+				paddingTop: 64
+			}
+
+		}),
+		...Platform.select({
+			ios: {
+				marginBottom: 55
+			},
+			android: {
+				marginBottom: 5
 			}
 		}),
-		marginBottom:55
 	},
 	textInput: {
 		backgroundColor: 'white',
